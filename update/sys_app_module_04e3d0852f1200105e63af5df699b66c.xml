@@ -15,7 +15,7 @@
         <mobile_title>Closed</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_120991_loaner_re_loaner_request</name>
-        <order>5</order>
+        <order>600</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -26,7 +26,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>04e3d0852f1200105e63af5df699b66c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Closed</sys_name>
         <sys_overrides/>
         <sys_package display_value="Loaner Request" source="x_120991_loaner_re">b331d4c12f1200105e63af5df699b633</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="Loaner Request">b331d4c12f1200105e63af5df699b633</sys_scope>
         <sys_update_name>sys_app_module_04e3d0852f1200105e63af5df699b66c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-01-10 11:20:29</sys_updated_on>
+        <sys_updated_on>2020-01-10 12:09:36</sys_updated_on>
         <timeline_page/>
         <title>Closed</title>
         <uncancelable>false</uncancelable>

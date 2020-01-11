@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Set the location to be used as the user location</description>
+        <field>active</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Set Loaner Location</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+	function onLoad() {
+		if (g_form.getValue('u_location_used') != '') {
+			return;
+		}
+
+		var city = g_scratchpad.city;
+		var country = g_scratchpad.country;
+
+		if (city && country){
+			g_form.setValue('u_location_used', city + ', ' + country);
+		}
+		else if (city){
+			g_form.setValue('u_location_used', city);
+		}
+		else if (country){
+			g_form.setValue('u_location_used', country);
+
+		}
+		if (city || country){
+			g_form.showFieldMsg('u_location_used', 'Value set automatically - you may override by editing', 'info');
+		}}
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-11 15:17:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6bc2da912f5640105e63af5df699b6a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Loaner Location</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Loaner Request" source="x_120991_loaner_re">b331d4c12f1200105e63af5df699b633</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">b331d4c12f1200105e63af5df699b633</sys_scope>
+        <sys_update_name>sys_script_client_6bc2da912f5640105e63af5df699b6a2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-11 15:17:46</sys_updated_on>
+        <table>x_120991_loaner_re_loaner_request</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <before>false</before>
+        <description/>
+        <flush_cache>true</flush_cache>
+        <name>Test for Fix Script</name>
+        <record_for_rollback>false</record_for_rollback>
+        <run_once>true</run_once>
+        <script/>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-11 16:50:10</sys_created_on>
+        <sys_id>83a66e952f9640105e63af5df699b699</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test for Fix Script</sys_name>
+        <sys_package display_value="Loaner Request" source="x_120991_loaner_re">b331d4c12f1200105e63af5df699b633</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">b331d4c12f1200105e63af5df699b633</sys_scope>
+        <sys_update_name>sys_script_fix_83a66e952f9640105e63af5df699b699</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-11 16:50:10</sys_updated_on>
+        <unloadable>true</unloadable>
+    </sys_script_fix>
+</record_update>
